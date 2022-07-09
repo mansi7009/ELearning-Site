@@ -1,0 +1,108 @@
+.footer{
+    position: sticky;
+}
+.footer1{
+    background-color: #1c1d1f;
+    color: white;
+    display: flex;
+    height: 20vh;
+    border-bottom: 1px solid #3e4143;
+}
+
+.footer1_Content{
+    color:white;
+    margin-right: auto;
+    flex :0.80;
+    margin-left: 25px;
+    margin-top: 13px;
+
+}
+
+.footer1>button:hover{
+    background-color: #3e4143;
+}
+.footer1 >button{
+    height: 7vh;
+    width: 10vw;
+    font-weight: bolder;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: auto;
+    flex:0.1;
+    margin-top: 5.5vh;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+
+.footer1_Content > h3,p{
+    text-align: justify;
+}
+
+.footer1_Content>h3{
+    margin-bottom: 5px;
+}
+.footer1_Content>p{
+    margin-top: 0px;
+}
+
+.footer1_Content > *{
+    width: 80%;
+}
+
+ul{
+    list-style-type: none;
+}
+.footer2{
+    display: flex;
+    background-color: #1c1d1f;
+    height: 17vh;
+    border-bottom: 1px solid #3e4143;
+
+}
+
+.footer2_Contents{
+    display: flex;
+    flex:0.8;
+    color: white;
+    text-align: justify;
+}
+.footer2 > button{
+    height: 7vh;
+    width: 19vw;
+    font-weight: bolder;
+    font-size: large;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: auto;
+    flex:0.1;
+    margin-top: 5.5vh;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.footer2 > button:hover{
+    background-color: #3e4143;
+    
+}
+
+.footer2_Contents > div{
+    margin-right: 1vw;
+}
+
+li{
+    padding: 2px;
+}
+
+
+.footer3{
+    background-color: #1c1d1f;
+    color: white;
+}
+
+.Globe{
+    color: white;
+}

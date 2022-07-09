@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+.header{
+    display: flex;
+    
+}
+.headerLogo{
+    flex:0.1;
+    cursor: pointer;
+}
+
+
+.navbar{
+    display: flex;
+    flex:0.9;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar > *{
+    margin-right: 7vw;
+}
+
+.navbar> a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar > button{
+    width: 12vw;
+    height: 6vh;
+    font-weight: bolder;
+    font-size: large;
+    background-color:#546de5 ;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+
+.navbar>button:hover{
+    background-color: #778beb;
+}
+
+
+
+

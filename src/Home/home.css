@@ -1,0 +1,58 @@
+.home{
+    display: flex;
+}
+
+.leftContent{
+    margin-right: auto;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    /* flex: 0.6; */
+}
+.leftContent > h1{
+    text-align: center;
+    line-break:strict;
+    margin-bottom: 7vh;
+}
+
+.leftContent>p{
+    text-align: center;
+}
+
+/* .rightContent{
+    flex:0.5;
+} */
+.rightContent > img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+.leftContainer_buttons > button{
+    padding: 6px;
+    margin: 9px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    width: 11vw;
+    height: 7vh;
+    font-size: medium;
+}
+
+
+.Flip_Color2{
+    background-color: #546de5 ;
+    border:2px solid white;
+}
+
+.Flip_Color1{
+    background-color: transparent;
+}
+
+.leftContainer_buttons > button:hover{
+    background: #778beb ;
+    border: 1px solid transparent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
